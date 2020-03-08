@@ -1,0 +1,39 @@
+|Rom_v1
+clk => reg_address[0].CLK
+clk => reg_address[1].CLK
+clk => reg_address[2].CLK
+clk => reg_address[3].CLK
+clk => reg_address[4].CLK
+clk => reg_address[5].CLK
+clk => reg_address[6].CLK
+clk => reg_address[7].CLK
+address[0] => reg_address[0].DATAIN
+address[1] => reg_address[1].DATAIN
+address[2] => reg_address[2].DATAIN
+address[3] => reg_address[3].DATAIN
+address[4] => reg_address[4].DATAIN
+address[5] => reg_address[5].DATAIN
+address[6] => reg_address[6].DATAIN
+address[7] => reg_address[7].DATAIN
+data_out[0] <= rom.DATAOUT
+data_out[1] <= rom.DATAOUT1
+data_out[2] <= rom.DATAOUT2
+data_out[3] <= rom.DATAOUT3
+data_out[4] <= rom.DATAOUT4
+data_out[5] <= rom.DATAOUT5
+data_out[6] <= rom.DATAOUT6
+data_out[7] <= rom.DATAOUT7
+data_out[8] <= rom.DATAOUT8
+data_out[9] <= rom.DATAOUT9
+data_out[10] <= rom.DATAOUT10
+data_out[11] <= rom.DATAOUT11
+data_out[12] <= rom.DATAOUT12
+data_out[13] <= rom.DATAOUT13
+data_out[14] <= rom.DATAOUT14
+data_out[15] <= rom.DATAOUT15
+data_out[16] <= rom.DATAOUT16
+data_out[17] <= rom.DATAOUT17
+data_out[18] <= rom.DATAOUT18
+data_out[19] <= rom.DATAOUT19
+
+

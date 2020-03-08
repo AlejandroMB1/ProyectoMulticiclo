@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VDHL_Proyecto\VHDL_Project\Arquitectura_v1\simulation\qsim
+vArquitectura_v1
+Z1 I0WcmJbDY]o6F686D0mc@]1
+Z2 VJ<=U^WE1F@LB]6OCQ2AbZ2
+Z3 dC:\VHDL_Project\Proyecto3\Arquitectura_v1\simulation\qsim
+Z4 w1543266693
+Z5 8Arquitectura_v1.vo
+Z6 FArquitectura_v1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Arquitectura_v1.vo|
+Z9 o-work work -O0
+Z10 n@arquitectura_v1
+!i10b 1
+Z11 !s100 2g2JBR=o^YO7`Rf___]3Y0
+!s85 0
+Z12 !s108 1543266694.924000
+Z13 !s107 Arquitectura_v1.vo|
+!s101 -O0
+vArquitectura_v1_vlg_check_tst
+!i10b 1
+!s100 ;Hm6h9@1Fm`j`X77dNR6i3
+I67aL]ZiPAKYC4nHhgdb2f3
+Z14 VQ9RGG[U6QfXHWkS=>^Kb20
+R3
+R4
+Z15 8Arquitectura_v1.vt
+Z16 FArquitectura_v1.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1543266695.065000
+Z18 !s107 Arquitectura_v1.vt|
+Z19 !s90 -work|work|Arquitectura_v1.vt|
+!s101 -O0
+R9
+Z20 n@arquitectura_v1_vlg_check_tst
+vArquitectura_v1_vlg_sample_tst
+!i10b 1
+Z21 !s100 dB^nnAj^0AkhTBHQE74?80
+Z22 IBE2KCOKNL8APOh[T@WA`I2
+Z23 V`j?VEANXRcNNcUVf:nGdb0
+R3
+R4
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@arquitectura_v1_vlg_sample_tst
+vArquitectura_v1_vlg_vec_tst
+!i10b 1
+!s100 Ha>iYW7WmMbUe8zb_GQ5;1
+IeUDnMVQYNNcYmZLn3W01c3
+Z25 V7_<NB>59R>Pbbof6ThU7U3
+R3
+R4
+R15
+R16
+L0 2547
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@arquitectura_v1_vlg_vec_tst

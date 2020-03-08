@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -31.603
+TNS   : -179.623
+
+Type  : Slow Model Setup 'CLOCK'
+Slack : -2.078
+TNS   : -32.842
+
+Type  : Slow Model Hold 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -36.159
+TNS   : -328.279
+
+Type  : Slow Model Hold 'CLOCK'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -30.065
+TNS   : -81873.376
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK'
+Slack : -2.064
+TNS   : -236.435
+
+Type  : Fast Model Setup 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -12.325
+TNS   : -67.769
+
+Type  : Fast Model Setup 'CLOCK'
+Slack : -1.457
+TNS   : -11.656
+
+Type  : Fast Model Hold 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -14.948
+TNS   : -134.136
+
+Type  : Fast Model Hold 'CLOCK'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Ram_v1:RAMC1|altsyncram:my_ram_rtl_0|altsyncram_tmf1:auto_generated|altsyncram_ruj1:altsyncram1|ram_block2a1~porta_address_reg0'
+Slack : -11.775
+TNS   : -31391.914
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK'
+Slack : -1.880
+TNS   : -202.752
+
+------------------------------------------------------------

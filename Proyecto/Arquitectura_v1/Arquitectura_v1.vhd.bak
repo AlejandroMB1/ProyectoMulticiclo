@@ -1,0 +1,160 @@
+----------------------------------------------------------------------------------------------------------------------
+-- Actividad : Arquitectura Proyecto
+-- Autores : German Andres Caycedo , David Hernandez, Maria Camila Lopez, Alejandro Meza
+-- Fecha : 20/10/2018
+--
+-- archivo : Arquitectura_v1.vhd
+----------------------------------------------------------------------------------------------------------------------
+-- Descripción : Vamos a hacer el main del proyecto
+----------------------------------------------------------------------------------------------------------------------
+-- cambios :
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity Arquitectura is
+
+	generic 
+	(
+		DATA_WIDTH : natural := 16;
+		ADDR_WIDTH : natural := 8;
+		OPCODE_WIDTH : natural := 4
+	);
+
+	port ( entrada : in std_logic_vector(7 down to 0);
+			enter : in std_logic;
+			reset : in std_logic
+
+			salida1 : out std_logic_vector(7 down to 0);
+			salida2 : out std_logic_vector(7 down to 0);
+			salida3 : out std_logic_vector(7 down to 0);
+			salida4 : out std_logic_vector(7 down to 0)
+
+
+	);
+
+End Entity;
+
+
+Architecture structural of Arquitectura is
+	
+	Component Alu 
+
+	generic (NAlu: positive := 16 ; MAlu: positive := 4);
+
+	port(
+		OPCODE : in std_logic_vector(M-1 downto 0);
+		A,B,C : in std_logic_vector(N-1 downto 0);
+		RESUL: out std_logic_vector(N-1 downto 0);
+		Branch: out std_logic
+	);
+
+	End Component;
+
+
+	Component MuxAlu
+
+	port
+	(	registerFile : in std_logic_vector(N-1 downto 0);
+		irA : in std_logic_vector(N-1 downto 0);
+		clk : in std_logic;
+		PcSource: in std_logic;
+		MuxOut : out std_logic_vector(N-1 downto 0)
+	);
+
+	End Component;
+
+	Component MuxPC
+
+	port
+	(	Jump : in std_logic_vector(N-1 downto 0);
+		Adder : in std_logic_vector(N-1 downto 0);
+		clk : in std_logic;
+		PcSource: in std_logic;
+		MuxOut : out std_logic_vector(N-1 downto 0)
+	);
+
+	End Component;
+
+	Component Pc
+
+	port
+	(	MuxPc : in std_logic_vector(N-1 downto 0);
+		PcOut : out std_logic_vector(M-1 downto 0);
+		clk : in std_logic;
+		PcSig: in std_logic
+	);
+
+	End Component;
+
+	Component Ram
+
+	port
+	(	clk, WriteMem: in std_logic;
+		data_in: in std_logic_vector(N-1 downto 0);
+		wr_address, rd_address: in integer range 0 to 255;
+		data_out: out std_logic_vector(N-1 downto 0)
+	);
+
+	End Component;
+
+	Component Rom
+
+	port
+	(	clk: std_logic;
+		address: in integer range 0 to 255;
+		data_out: out std_logic_vector(N-1 downto 0)
+	);
+
+	End Component;
+
+	Component RegisterFile
+
+	port
+	(	clk: std_logic;
+		regWrite: std_logic;
+		regMem: std_logic;
+		rd: in std_logic_vector(N-1 downto 0);
+		rs: in std_logic_vector(N-1 downto 0);
+		rt: in std_logic_vector(N-1 downto 0);
+		Register_bus: inout std_logic_vector(M-1 downto 0);
+		Register_alu: out std_logic_vector(M-1 downto 0);
+		Register_mux: out std_logic_vector(M-1 downto 0)
+	);
+
+	End Component;
+
+	Component AluOut
+
+	port
+	(	dataAlu : in std_logic_vector(N-1 downto 0);
+		RESUL: out std_logic_vector(N-1 downto 0);
+		oeAluOut: in std_logic
+	);
+
+	End Component;
+
+	Component Adder
+
+	port
+	(	Pc: in std_logic_vector(N-1 downto 0);
+		Pc1: out std_logic_vector(N-1 downto 0)
+	);
+
+	End Component;
+
+	signal OPCODEALU : std_logic_vector(3 downto 0)
+
+begin	
+	AluC1: Alu_v1 generic map (NAlu=>DATA_WIDTH,MAlu=>OPCODE_WIDTH)
+	port map (OPCODE => DYJ, A => GSD, B => SDG, C => XDFG);
+
+
+
+
+End Architecture;

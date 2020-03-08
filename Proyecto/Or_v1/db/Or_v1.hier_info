@@ -1,0 +1,6 @@
+|Or_v1
+AndOut => OrOut.IN0
+PcWrite => OrOut.IN1
+OrOut <= OrOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

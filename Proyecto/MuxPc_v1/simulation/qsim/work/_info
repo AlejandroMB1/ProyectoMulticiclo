@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL_Project\MuxPc_v1\simulation\qsim
+vMuxPc_v1
+Z1 !s100 lUadlVU=HE7=F?zz7gSk<2
+Z2 I0;ljQcg4Zj;QHJRmMQKGQ0
+Z3 VK[V?O]zP9am_gLN3bC?2:1
+Z4 dC:\VHDL_Project\MuxPc_v1\simulation\qsim
+Z5 w1540073986
+Z6 8MuxPc_v1.vo
+Z7 FMuxPc_v1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|MuxPc_v1.vo|
+Z10 o-work work -O0
+Z11 n@mux@pc_v1
+!i10b 1
+!s85 0
+Z12 !s108 1540073988.029000
+Z13 !s107 MuxPc_v1.vo|
+!s101 -O0
+vMuxPc_v1_vlg_check_tst
+!i10b 1
+Z14 !s100 ?h722]f?M:nIiFh7F=MGm1
+Z15 IFS`^E_;l>FASSN_Z]GbVf3
+Z16 V;CjQP9c6GJClGcUKeMN4E1
+R4
+Z17 w1540073984
+Z18 8MuxPc_v1.vt
+Z19 FMuxPc_v1.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1540073988.281000
+Z21 !s107 MuxPc_v1.vt|
+Z22 !s90 -work|work|MuxPc_v1.vt|
+!s101 -O0
+R10
+Z23 n@mux@pc_v1_vlg_check_tst
+vMuxPc_v1_vlg_sample_tst
+!i10b 1
+Z24 !s100 1BV_noP=@KLfi6GAT_J>52
+Z25 I^AfbZLKm3LdoBeN_L5EfG3
+Z26 VJc[gU?NTmBBj0z44k<4mF3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@mux@pc_v1_vlg_sample_tst
+vMuxPc_v1_vlg_vec_tst
+!i10b 1
+!s100 I5Z2iMfJXeTK6k2<d7Q;l0
+Ik;in^W<FfVk:3BkM<n;V=1
+Z28 VM0373biDAH`Nfh9TNEZ7b1
+R4
+R17
+R18
+R19
+Z29 L0 283
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@mux@pc_v1_vlg_vec_tst

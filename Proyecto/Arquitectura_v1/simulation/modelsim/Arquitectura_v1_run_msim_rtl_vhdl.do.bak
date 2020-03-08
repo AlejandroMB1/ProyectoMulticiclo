@@ -1,0 +1,24 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/DataOut_v1/DataOut_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/DataIn_v1/DataIn_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/UControl_v1/UControl_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Rom_v1/Rom_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Register_v1/Register_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Ram_v1/Ram_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/PC_v1/PC_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Or_v1/Or_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/MuxPc_v1/MuxPc_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/MuxAlu_v1/MuxAlu_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/IR_v1/IR_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/And_v1/And_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Alu_v1/Alu_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Alu_Out_v1/Alu_Out_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Adder_v1/Adder_v1.vhd}
+vcom -93 -work work {C:/VDHL_Proyecto/VHDL_Project/Arquitectura_v1/Arquitectura_v1.vhd}
+

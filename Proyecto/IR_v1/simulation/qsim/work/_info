@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL_Project\IR_v1\simulation\qsim
+vIR_v1
+Z1 ID[GH_B[9JOh4OJS6FS9Gb0
+Z2 Vg6cZ8TUGPn]:Jji;SIXD>2
+Z3 dC:\VHDL_Project\IR_v1\simulation\qsim
+Z4 w1540082211
+Z5 8IR_v1.vo
+Z6 FIR_v1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|IR_v1.vo|
+Z9 o-work work -O0
+Z10 n@i@r_v1
+!i10b 1
+Z11 !s100 TgOZQSd^_=W0P4:jN6YJE2
+!s85 0
+Z12 !s108 1540082213.419000
+Z13 !s107 IR_v1.vo|
+!s101 -O0
+vIR_v1_vlg_check_tst
+!i10b 1
+!s100 D9`Wk5>lQEY4>7C4G]MPS0
+ILS2VOozg3[B2R5j74Xkh[3
+VST]:>k;eIja92G4[cZ_@a1
+R3
+Z14 w1540082209
+Z15 8IR_v1.vt
+Z16 FIR_v1.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1540082213.835000
+Z18 !s107 IR_v1.vt|
+Z19 !s90 -work|work|IR_v1.vt|
+!s101 -O0
+R9
+Z20 n@i@r_v1_vlg_check_tst
+vIR_v1_vlg_sample_tst
+!i10b 1
+Z21 !s100 aB`I`z7jUoP1Ra5:SLoog1
+Z22 IzWdOdk3Q1zGQg2IfTd^mG3
+Z23 Vn>nXfMS_DD[CC]Nc`M2dB3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@i@r_v1_vlg_sample_tst
+vIR_v1_vlg_vec_tst
+!i10b 1
+!s100 l`GfBT^iOdNm]h3Y1:X=Z0
+IG;PFf=87SKCecOkF9Fi_:0
+Z25 VH?cXW2BQS6QdMN9LE`=aj0
+R3
+R14
+R15
+R16
+L0 819
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@i@r_v1_vlg_vec_tst

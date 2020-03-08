@@ -1,0 +1,43 @@
+|MuxAlu_v1
+registerFile[0] => temp.DATAA
+registerFile[1] => temp.DATAA
+registerFile[2] => temp.DATAA
+registerFile[3] => temp.DATAA
+registerFile[4] => temp.DATAA
+registerFile[5] => temp.DATAA
+registerFile[6] => temp.DATAA
+registerFile[7] => temp.DATAA
+irA[0] => temp.DATAB
+irA[1] => temp.DATAB
+irA[2] => temp.DATAB
+irA[3] => temp.DATAB
+irA[4] => temp.DATAB
+irA[5] => temp.DATAB
+irA[6] => temp.DATAB
+irA[7] => temp.DATAB
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+clk => temp[4].CLK
+clk => temp[5].CLK
+clk => temp[6].CLK
+clk => temp[7].CLK
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+AluSource => temp.OUTPUTSELECT
+MuxOut[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[4] <= temp[4].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[5] <= temp[5].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[6] <= temp[6].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[7] <= temp[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

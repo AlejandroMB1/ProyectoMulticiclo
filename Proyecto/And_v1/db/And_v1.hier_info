@@ -1,0 +1,6 @@
+|And_v1
+PcWriteCond => AndOut.IN0
+AluZero => AndOut.IN1
+AndOut <= AndOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

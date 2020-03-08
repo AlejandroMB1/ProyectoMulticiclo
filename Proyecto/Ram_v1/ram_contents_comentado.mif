@@ -1,0 +1,14 @@
+WIDTH = 20;
+DEPTH = 256;
+ADDRESS_RADIX = UNS;
+DATA_RADIX = BIN;
+CONTENT BEGIN
+
+07 : 00000111; #Constante y dir 28, 7
+08 : 00001000; #Constante y dir 10, 8
+09 : 00001001; #Constante y dir 51, 9 
+10 : 00001010; #Constante y dir 17 10
+11 : 00001011; #Constante y dir 50, 11	
+12 : 00001100; #Constante y dir 15, 12
+13 : 00001101; #Constante y dir 88, 13
+END;

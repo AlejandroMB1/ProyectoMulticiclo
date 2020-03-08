@@ -1,0 +1,27 @@
+|DataIn_v1
+input[0] => salida[0]~reg0.DATAIN
+input[1] => salida[1]~reg0.DATAIN
+input[2] => salida[2]~reg0.DATAIN
+input[3] => salida[3]~reg0.DATAIN
+input[4] => salida[4]~reg0.DATAIN
+input[5] => salida[5]~reg0.DATAIN
+input[6] => salida[6]~reg0.DATAIN
+input[7] => salida[7]~reg0.DATAIN
+salida[0] <= salida[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= salida[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= salida[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= salida[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[4] <= salida[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[5] <= salida[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[6] <= salida[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[7] <= salida[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ent => salida[0]~reg0.CLK
+ent => salida[1]~reg0.CLK
+ent => salida[2]~reg0.CLK
+ent => salida[3]~reg0.CLK
+ent => salida[4]~reg0.CLK
+ent => salida[5]~reg0.CLK
+ent => salida[6]~reg0.CLK
+ent => salida[7]~reg0.CLK
+
+

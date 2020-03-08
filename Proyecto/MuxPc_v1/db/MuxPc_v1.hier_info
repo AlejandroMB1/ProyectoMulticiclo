@@ -1,0 +1,43 @@
+|MuxPc_v1
+Jump[0] => temp.DATAA
+Jump[1] => temp.DATAA
+Jump[2] => temp.DATAA
+Jump[3] => temp.DATAA
+Jump[4] => temp.DATAA
+Jump[5] => temp.DATAA
+Jump[6] => temp.DATAA
+Jump[7] => temp.DATAA
+Adder[0] => temp.DATAB
+Adder[1] => temp.DATAB
+Adder[2] => temp.DATAB
+Adder[3] => temp.DATAB
+Adder[4] => temp.DATAB
+Adder[5] => temp.DATAB
+Adder[6] => temp.DATAB
+Adder[7] => temp.DATAB
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+clk => temp[4].CLK
+clk => temp[5].CLK
+clk => temp[6].CLK
+clk => temp[7].CLK
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+PcSource => temp.OUTPUTSELECT
+MuxOut[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[4] <= temp[4].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[5] <= temp[5].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[6] <= temp[6].DB_MAX_OUTPUT_PORT_TYPE
+MuxOut[7] <= temp[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

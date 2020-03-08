@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL_Project\PC_v1\simulation\qsim
+vPC_v1
+Z1 !s100 MCl56z4T7l?72c=YPITZ03
+Z2 ICVMEhT8cVb8`a[a`cz_GF1
+Z3 V`V9V0:Zf7BXc<KEK[mkNL1
+Z4 dC:\VHDL_Project\PC_v1\simulation\qsim
+Z5 w1540075554
+Z6 8PC_v1.vo
+Z7 FPC_v1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|PC_v1.vo|
+Z10 o-work work -O0
+Z11 n@p@c_v1
+!i10b 1
+!s85 0
+Z12 !s108 1540075556.583000
+Z13 !s107 PC_v1.vo|
+!s101 -O0
+vPC_v1_vlg_check_tst
+!i10b 1
+Z14 !s100 ziAjXJ=0VfBhWNFWSJFYV0
+Z15 IH>zI1=k8VSI]K[V<X3BS@1
+Z16 VX79MM9BP08KOz72nN0aI?3
+R4
+Z17 w1540075553
+Z18 8PC_v1.vt
+Z19 FPC_v1.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1540075556.863000
+Z21 !s107 PC_v1.vt|
+Z22 !s90 -work|work|PC_v1.vt|
+!s101 -O0
+R10
+Z23 n@p@c_v1_vlg_check_tst
+vPC_v1_vlg_sample_tst
+!i10b 1
+Z24 !s100 N0bg=1lc?]hXg=]F7RI?O0
+Z25 Ih^o9Z`];CafXfd4g1QPHH1
+Z26 V=DAZH_>bD`Wkh:QiKPhdP1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@p@c_v1_vlg_sample_tst
+vPC_v1_vlg_vec_tst
+!i10b 1
+Z28 !s100 306YdBY422PVGS;@Mn?dc1
+Z29 IFhhe8KS5^f32j9:aY78z>1
+Z30 VQPPkn9O4SUkd`ZUgj>Oi53
+R4
+R17
+R18
+R19
+Z31 L0 425
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@p@c_v1_vlg_vec_tst

@@ -1,0 +1,42 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity IR_v1 is
+	port
+	(	instruccion : in std_logic_vector(15 downto 0);
+		oeir,irwrite: in std_logic;
+		clk : in std_logic;
+		outjump: in std_logic_vector(7 downto 0):="00000000";
+		outrd,outrs,outrt,outcons,outconsdir : out std_logic_vector(7 downto 0):="00000000"
+	);
+	
+Architecture IR_v1_arc of IR_v1 is
+	signal opcode : std_logic_vector(3 downto 0);
+	Begin
+	opcode(0)<=instruccion(12)
+	opcode(1)<=instruccion(13)
+	opcode(2)<=instruccion(14)
+	opcode(3)<=instruccion(15)
+	if opcode="0000" OR opcode="0010" OR opcode="0011" then
+		outrd(0)<=instruccion(0);
+		outrd(1)<=instruccion(1);
+		outrd(2)<=instruccion(2);
+		outrd(3)<=instruccion(3);
+		outrt(0)<=instruccion(4);
+		outrt(1)<=instruccion(5);
+		outrt(2)<=instruccion(6);
+		outrt(3)<=instruccion(7);
+		outrs(0)<=instruccion(8);
+		outrs(1)<=instruccion(9);
+		outrs(2)<=instruccion(10);
+		outrs(3)<=instruccion(11);
+	
+--		Process (clk,oeir,irwrite)
+--		Begin
+--			if (o) then
+--				temp <= inp;
+--			end if;
+--			ou <= temp;
+--		end process;
+End Architecture IR_v1_arc;

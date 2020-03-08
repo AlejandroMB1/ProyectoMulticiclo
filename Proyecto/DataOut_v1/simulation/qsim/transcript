@@ -1,0 +1,11 @@
+# do DataOut_v1.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DataOut_v1
+# 
+# Top level modules:
+# 	DataOut_v1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DataOut_v1_vlg_sample_tst
+# ** Error: DataOut_v1.vt(30): near ",": syntax error, unexpected ','
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./DataOut_v1.do line 4

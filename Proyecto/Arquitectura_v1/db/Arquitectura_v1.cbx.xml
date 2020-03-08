@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Arquitectura_v1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Arquitectura_v1|DataOut_v1:DataOutC1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_7so.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Arquitectura_v1|DataOut_v1:DataOutC1|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Arquitectura_v1|Ram_v1:RAMC1|altsyncram:my_ram_rtl_0" CBX_FILE_NAME="altsyncram_tmf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Arquitectura_v1|Ram_v1:RAMC1|altsyncram:my_ram_rtl_1" CBX_FILE_NAME="altsyncram_bcf1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

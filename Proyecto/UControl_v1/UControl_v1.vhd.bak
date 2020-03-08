@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity State is
+
+	port
+	(
+		clk : in	std_logic;
+		inp	 : in	std_logic_vector(3 downto 0);
+		reset	 : in	std_logic := '0';
+		pcwritecon : out std_logic;
+		pcwrite : out std_logic;
+		iord : out std_logic;
+		memread : out std_logic;
+		memwrite : out std_logic;
+		irwrite : out std_logic;
+		regdes : out std_logic_vector(1 downto 0);
+		memtoreg : out std_logic_vector(1 downto 0);
+		regwrite : out std_logic;
+		aluop : out std_logic_vector(2 downto 0);
+		alusrcb : out std_logic;
+		pcsource : out std_logic_vector(1 downto 0);
+		Estado: out natural;
+		mdrsig: out std_logic
+	);
+
+end entity;
